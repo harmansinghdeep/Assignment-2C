@@ -17,9 +17,12 @@ img {
 
 .content {
   background-color: red;
+  background-image: url("../../assets/images/cat-with-toy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 50vw;
 }
 
 .content img {
-  mix-blend-mode: normal;
+  mix-blend-mode:soft-light;
 }
