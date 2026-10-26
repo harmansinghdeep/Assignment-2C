@@ -16,5 +16,7 @@ img {
 }
 
 .content {
+  border-radius: 20rem;
   width: 60vw;
+  overflow: hidden;
 }
