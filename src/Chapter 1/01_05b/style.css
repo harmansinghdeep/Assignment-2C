@@ -20,11 +20,14 @@ img {
   border-radius: 1rem;
   width: 40vw;
 }
+overflow: hidden;
 
 .image {
-  height: inherit;
+  height: 100%;
+  position: absolute;
   object-fit: cover;
   width: inherit;
+  top: 0;
 }
 
 figcaption {
@@ -32,5 +35,8 @@ figcaption {
 }
 
 .ratio-box {
+   height: 0;
+  padding-top: calc(100% * (3 / 4));
+  position: relative;
   width: 100%;
 }
