@@ -17,10 +17,13 @@ img {
 
 .content {
   border: 5px solid hotpink;
-  height: 40vh;
-  width: 75vw;
+  height: 90vh;
+  width: 50vw;
 }
 
 .image {
+   height: inherit;
+  object-fit: scale-down;
+  width: inherit;
 
 }
