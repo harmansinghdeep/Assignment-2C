@@ -26,7 +26,9 @@ img {
 
 .content h1 {
   background: url("../../assets/images/red-berries.jpg");
+  background-clip: text;
   background-size: cover;
+  color: transparent;
   font-size: 4rem;
   padding: 2rem;
   text-align: center;
